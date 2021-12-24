@@ -1,4 +1,4 @@
-import { FC, useState, useRef, useEffect } from 'react'
+import { FC, useState, useRef } from 'react'
 import styled, { keyframes } from 'styled-components'
 import sound from '../music/song.mp3'
 import foto from '../img/foto.jpg'
@@ -12,7 +12,7 @@ export const FrontCard: FC = () => {
 
 
 
-		if(flip == true){
+		if(flip === true){
 		  ref.current.play()
 		 } else{
 		  ref.current.pause()
@@ -37,7 +37,7 @@ export const FrontCard: FC = () => {
 			<div className="card__face card__face--front">
 				<h2><span>Feliz</span> <span>navidad</span></h2>
 				<p>2021</p>
-				<div className="foto"><img src={foto} /></div>
+				<div className="foto"><img alt="img"src={foto} /></div>
 				
 			</div>
 			<div className="card__face card__face--back">
