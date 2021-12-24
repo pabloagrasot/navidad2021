@@ -47,9 +47,9 @@ export const FrontCard: FC = () => {
 					</div>
 					<div className="card__body">
 						<TextAnimation>
-						<p>Se que este año 2021 ha sido un poco largo y complicado. Hemos tenido que luchar más de la cuenta, pero juntos somos insuperables y juntos romperemos todas las barreras del próximo año 2022.</p>
-						<p>Feliz navidad mi amor, estoy convencido de que este próximo año 2022 será nuestro año y alcanzaremos todas nuestras metas</p>
-						<p>Te quiero ❤❤</p>
+						<p>Queridos hermanos, sobrinos, tíos y primos, aunque este año vamos a estar separados nos sentiremos unidos como siempre.</p>
+						<p>Queremos desearos feliz navidad y que disfutéis de estos días con vuestra familia.</p>
+						<p>Os queremos ❤❤</p>
 						</TextAnimation>
 					</div>
 				</div>
